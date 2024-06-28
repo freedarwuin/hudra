@@ -53,6 +53,8 @@ linux:
   category: Game
   mimeTypes:
     - x-scheme-handler/hydralauncher
+  desktop:
+    - exec: hydralauncher
 appImage:
   artifactName: ${name}-${version}.${ext}
 npmRebuild: false
