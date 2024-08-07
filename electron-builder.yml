@@ -45,6 +45,7 @@ linux:
     - AppImage
     - snap
     - deb
+    - pacman
     - rpm
   maintainer: electronjs.org
   category: Game
